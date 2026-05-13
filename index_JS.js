@@ -44,7 +44,7 @@ function corrupted_game() {
         corrupted_video.height = "315";
 
         const detail_img = document.createElement("img");
-        detail_img.src = "/Assets/CORRUPTED_detail.png";
+        detail_img.src = "Assets/CORRUPTED_detail.png";
         detail_img.id = "corrupted_img";
 
         const exit = document.createElement("button");
@@ -83,7 +83,7 @@ function racing_ball() {
         unity_game.allowFullscreen = true;
 
         const png = document.createElement("img");
-        png.src = "/Assets/asset_unity.png";
+        png.src = "Assets/asset_unity.png";
         png.id = "unity_inner_png";
 
         const text = document.createElement("p");
@@ -130,7 +130,7 @@ function behaviour_gamejam() {
         game_jam_video.allowFullscreen = true;
 
         const detail_img = document.createElement("img");
-        detail_img.src = "/Assets/behaviour_jam.jpg";
+        detail_img.src = "Assets/behaviour_jam.jpg";
         detail_img.id = "jam_img";
 
         const jam_paragraph = document.createElement("p");
@@ -218,7 +218,7 @@ function libgdx() {
         lib_video.allowFullscreen = true;
 
         const detail_img = document.createElement("img");
-        detail_img.src = "/Assets/lib_gdx_logo.png";
+        detail_img.src = "Assets/lib_gdx_logo.png";
         detail_img.id = "lib_img";
 
         const paragraph_lib = document.createElement("p");
@@ -264,7 +264,7 @@ function raylib() {
         raylib_video.allowFullscreen = true;
 
         const detail_img = document.createElement("img");
-        detail_img.src = "/Assets/Raylib_logo.png";
+        detail_img.src = "Assets/Raylib_logo.png";
         detail_img.id = "raylib_img";
 
         const paragraph = document.createElement("p");
@@ -316,7 +316,7 @@ function arduino_gfx() {
         test_detail.id = "gfx_detail";
 
         const ada_fruit = document.createElement("img");
-        ada_fruit.src = "/Assets/ada_fruit.png";
+        ada_fruit.src = "Assets/ada_fruit.png";
         ada_fruit.id = "ada_fruit_img";
 
            const exit = document.createElement("button");
@@ -435,7 +435,7 @@ function art_station() {
         
         const add_image = document.createElement("img");
         add_image.id = "banner_image";
-        add_image.src = "/Assets/background_art.png";
+        add_image.src = "Assets/background_art.png";
      
         const div2 = document.createElement("div");
         div2.id = "inner_inner_div";
