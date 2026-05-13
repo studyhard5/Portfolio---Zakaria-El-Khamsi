@@ -329,8 +329,8 @@ function arduino_gfx() {
 
         new_Div.appendChild(ada_fruit);
         new_Div.appendChild(test_detail);
-        new_Div.appendChild(exit);
         new_Div.appendChild(gfx_video);
+        new_Div.appendChild(exit);
         
         get_arduino_gfx.appendChild(new_Div);
         
